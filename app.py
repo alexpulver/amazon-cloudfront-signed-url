@@ -7,7 +7,7 @@ from botocore.signers import CloudFrontSigner
 from chalice import Chalice
 
 
-app = Chalice(app_name='caching-auth-api')
+app = Chalice(app_name='amazon-cloudfront-presigned-url')
 
 
 @app.route('/presigned-url')
